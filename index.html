@@ -17,13 +17,11 @@
 <body>
 
   <!-- ========== HEADER ========== -->
-
-
   <header class="site-header">
     <div class="nav-container">
 
       <a href="#accueil" class="logo">
-        <img src="logo.jpeg" alt="Logo L'AGENCE" class="logo-image">
+        <img src="logo.jpeg" alt="Logo L'AGENCE" class="logo-image" data-i18n-alt="logo.alt">
         <span class="logo-text">
           <span class="name">L'AGENCE</span>
           <span class="sub">Property Management &amp; Consulting</span>
@@ -31,12 +29,12 @@
       </a>
 
       <nav class="main-nav" id="mainNav">
-        <a href="tel:+22890458096" class="nav-call">📞 Appeler le 90 45 80 96</a>
+        <a href="tel:+22890458096" class="nav-call" data-i18n="nav.call">📞 Appeler le 90 45 80 96</a>
         <ul>
-          <li><a href="#accueil" class="active">Accueil</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#apropos">À propos</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#accueil" class="active" data-i18n="nav.home">Accueil</a></li>
+          <li><a href="#services" data-i18n="nav.services">Services</a></li>
+          <li><a href="#apropos" data-i18n="nav.about">À propos</a></li>
+          <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
         </ul>
       </nav>
 
@@ -49,7 +47,31 @@
         90 45 80 96
       </a>
 
-      <button class="burger" id="burgerBtn" aria-label="Ouvrir le menu">
+      <!-- Sélecteur de langue -->
+      <!-- Sélecteur de langue -->
+      <div class="lang-switch" role="group" aria-label="Langue / Language">
+
+        <button type="button" data-lang="fr" class="active" aria-pressed="true" aria-label="Français">
+          <svg class="flag" viewBox="0 0 3 2" aria-hidden="true">
+            <rect width="1" height="2" fill="#0055A4" />
+            <rect x="1" width="1" height="2" fill="#fff" />
+            <rect x="2" width="1" height="2" fill="#EF4135" />
+          </svg>
+          <span>FR</span>
+        </button>
+
+        <button type="button" data-lang="en" aria-pressed="false" aria-label="English">
+          <svg class="flag" viewBox="0 0 3 2" aria-hidden="true">
+            <rect width="3" height="2" fill="#fff" />
+            <rect x="1.3" width=".4" height="2" fill="#CE1124" />
+            <rect y=".8" width="3" height=".4" fill="#CE1124" />
+          </svg>
+          <span>EN</span>
+        </button>
+
+      </div>
+
+      <button class="burger" id="burgerBtn" aria-label="Ouvrir le menu" data-i18n-aria="nav.burger">
         <span></span><span></span><span></span>
       </button>
 
@@ -64,17 +86,17 @@
       <div class="container hero-grid">
 
         <div class="hero-inner">
-          <span class="hero-badge">Agence N1 au Togo dans l'immobilier</span>
-          <p class="eyebrow">Cabinet de conseils et prestation immobilière</p>
-          <h1>À l'Agence, nous faisons de votre <span>abri</span> un lieu de repos</h1>
+          <span class="hero-badge" data-i18n="hero.badge">Agence N1 au Togo dans l'immobilier</span>
+          <p class="eyebrow" data-i18n="hero.eyebrow">Cabinet de conseils et prestation immobilière</p>
+          <h1 data-i18n-html="hero.title">À l'Agence, nous faisons de votre <span>abri</span> un lieu de repos</h1>
 
-          <p class="hero-text">
+          <p class="hero-text" data-i18n="hero.text">
             Gérance, location, achat, vente, rénovation… Nous vous accompagnons à chaque étape de votre
             projet immobilier à Lomé.
           </p>
           <div class="hero-actions">
-            <a href="#services" class="btn btn-gold">Découvrir nos services</a>
-            <a href="#contact" class="btn btn-outline">Nous contacter</a>
+            <a href="#services" class="btn btn-gold" data-i18n="hero.cta1">Découvrir nos services</a>
+            <a href="#contact" class="btn btn-outline" data-i18n="hero.cta2">Nous contacter</a>
           </div>
         </div>
 
@@ -82,9 +104,9 @@
           <div class="logo-card">
             <img src="logo.jpeg" alt="">
           </div>
-          <span class="chip chip-1">Gérance</span>
-          <span class="chip chip-2">Location</span>
-          <span class="chip chip-3">Vente</span>
+          <span class="chip chip-1" data-i18n="chip.1">Gérance</span>
+          <span class="chip chip-2" data-i18n="chip.2">Location</span>
+          <span class="chip chip-3" data-i18n="chip.3">Vente</span>
         </div>
 
       </div>
@@ -94,8 +116,9 @@
     <!-- ========== SERVICES ========== -->
     <section id="services" class="section services-section">
       <div class="container">
-        <h2 class="section-title">Nos services</h2>
-        <p class="section-intro">Tout ce qu'il faut pour gérer, valoriser et vivre sereinement votre bien.</p>
+        <h2 class="section-title" data-i18n="services.title">Nos services</h2>
+        <p class="section-intro" data-i18n="services.intro">Tout ce qu'il faut pour gérer, valoriser et vivre
+          sereinement votre bien.</p>
 
         <div class="services-grid">
 
@@ -109,13 +132,13 @@
               </svg>
             </span>
             <div class="card-head">
-              <h3>Transactions</h3>
-              <p class="desc">Achetez, vendez ou louez en toute confiance.</p>
+              <h3 data-i18n="s1.title">Transactions</h3>
+              <p class="desc" data-i18n="s1.desc">Achetez, vendez ou louez en toute confiance.</p>
             </div>
             <ul class="tags">
-              <li>Achat</li>
-              <li>Vente</li>
-              <li>Location</li>
+              <li data-i18n="s1.t1">Achat</li>
+              <li data-i18n="s1.t2">Vente</li>
+              <li data-i18n="s1.t3">Location</li>
             </ul>
           </article>
 
@@ -129,13 +152,13 @@
               </svg>
             </span>
             <div class="card-head">
-              <h3>Gestion</h3>
-              <p class="desc">Nous gérons votre bien à votre place.</p>
+              <h3 data-i18n="s2.title">Gestion</h3>
+              <p class="desc" data-i18n="s2.desc">Nous gérons votre bien à votre place.</p>
             </div>
             <ul class="tags">
-              <li>Gérance</li>
-              <li>Gestion locative</li>
-              <li>Administration</li>
+              <li data-i18n="s2.t1">Gérance</li>
+              <li data-i18n="s2.t2">Gestion locative</li>
+              <li data-i18n="s2.t3">Administration</li>
             </ul>
           </article>
 
@@ -148,12 +171,12 @@
               </svg>
             </span>
             <div class="card-head">
-              <h3>Conseil &amp; assistance</h3>
-              <p class="desc">Un avis clair avant chaque décision.</p>
+              <h3 data-i18n-html="s3.title">Conseil &amp; assistance</h3>
+              <p class="desc" data-i18n="s3.desc">Un avis clair avant chaque décision.</p>
             </div>
             <ul class="tags">
-              <li>Conseil immobilier</li>
-              <li>Assistance</li>
+              <li data-i18n="s3.t1">Conseil immobilier</li>
+              <li data-i18n="s3.t2">Assistance</li>
             </ul>
           </article>
 
@@ -166,21 +189,21 @@
               </svg>
             </span>
             <div class="card-head">
-              <h3>Entretien &amp; confort</h3>
-              <p class="desc">Un bien propre, beau et agréable à vivre.</p>
+              <h3 data-i18n-html="s4.title">Entretien &amp; confort</h3>
+              <p class="desc" data-i18n="s4.desc">Un bien propre, beau et agréable à vivre.</p>
             </div>
             <ul class="tags">
-              <li>Nettoyage</li>
-              <li>Rénovation</li>
-              <li>Conciergerie</li>
+              <li data-i18n="s4.t1">Nettoyage</li>
+              <li data-i18n="s4.t2">Rénovation</li>
+              <li data-i18n="s4.t3">Conciergerie</li>
             </ul>
           </article>
 
         </div>
 
-        <p class="services-more">Et bien d'autres prestations sur demande.</p>
+        <p class="services-more" data-i18n="services.more">Et bien d'autres prestations sur demande.</p>
         <div class="services-cta">
-          <a href="#contact" class="btn btn-gold">Demander un devis</a>
+          <a href="#contact" class="btn btn-gold" data-i18n="services.cta">Demander un devis</a>
         </div>
       </div>
     </section>
@@ -190,26 +213,27 @@
     <section id="apropos" class="section about-section">
       <div class="container">
 
-        <h2 class="section-title">À propos de L'AGENCE</h2>
-        <p class="section-intro">
+        <h2 class="section-title" data-i18n="about.title">À propos de L'AGENCE</h2>
+        <p class="section-intro" data-i18n="about.intro">
           Cabinet de conseils et de prestation immobilière à Lomé.
         </p>
 
         <!-- Mission -->
         <blockquote class="mission">
           <span class="quote-mark" aria-hidden="true">“</span>
-          <p>À l'Agence, nous faisons de votre <em>abri</em> un lieu de repos.</p>
-          <footer>Notre mission</footer>
+          <p data-i18n-html="about.mission">À l'Agence, nous faisons de votre <em>abri</em> un lieu de repos.</p>
+          <footer data-i18n="about.missionLabel">Notre mission</footer>
         </blockquote>
 
         <!-- Pour qui -->
         <div class="who">
-          <p class="who-title">Un accompagnement clair et fiable, de la recherche du bien à sa gestion au quotidien</p>
+          <p class="who-title" data-i18n="about.who">Un accompagnement clair et fiable, de la recherche du bien à sa
+            gestion au quotidien</p>
           <ul class="who-list">
-            <li>Propriétaire</li>
-            <li>Locataire</li>
-            <li>Acheteur</li>
-            <li>Investisseur</li>
+            <li data-i18n="about.w1">Propriétaire</li>
+            <li data-i18n="about.w2">Locataire</li>
+            <li data-i18n="about.w3">Acheteur</li>
+            <li data-i18n="about.w4">Investisseur</li>
           </ul>
         </div>
 
@@ -225,8 +249,8 @@
                 <circle cx="12" cy="12" r=".6" />
               </svg>
             </span>
-            <h3>Suivi sur mesure</h3>
-            <p>Chaque projet est traité selon vos besoins.</p>
+            <h3 data-i18n="v1.title">Suivi sur mesure</h3>
+            <p data-i18n="v1.desc">Chaque projet est traité selon vos besoins.</p>
           </div>
 
           <div class="value">
@@ -236,8 +260,8 @@
                 <path d="M13 2 4 14h7l-1 8 9-12h-7l1-8Z" />
               </svg>
             </span>
-            <h3>Équipe réactive</h3>
-            <p>Une réponse rapide à vos demandes.</p>
+            <h3 data-i18n="v2.title">Équipe réactive</h3>
+            <p data-i18n="v2.desc">Une réponse rapide à vos demandes.</p>
           </div>
 
           <div class="value">
@@ -248,8 +272,8 @@
                 <path d="m9 12 2 2 4-4" />
               </svg>
             </span>
-            <h3>Conseils fiables</h3>
-            <p>Un accompagnement clair, de A à Z.</p>
+            <h3 data-i18n="v3.title">Conseils fiables</h3>
+            <p data-i18n="v3.desc">Un accompagnement clair, de A à Z.</p>
           </div>
 
         </div>
@@ -263,9 +287,9 @@
       <div class="container">
 
         <div class="contact-head">
-          <span class="badge"><i></i>Équipe disponible immédiatement</span>
-          <h2>Prêt à confier votre projet immobilier à L'AGENCE&nbsp;?</h2>
-          <p>
+          <span class="badge"><i></i><span data-i18n="contact.badge">Équipe disponible immédiatement</span></span>
+          <h2 data-i18n-html="contact.title">Prêt à confier votre projet immobilier à L'AGENCE&nbsp;?</h2>
+          <p data-i18n="contact.text">
             Gérance, location, achat, vente ou rénovation : contactez-nous, nous vous garantissons
             un suivi sur mesure et réactif.
           </p>
@@ -274,7 +298,7 @@
         <!-- 3 cartes de contact -->
         <div class="contact-cards">
 
-          <a class="c-card c-wa" target="_blank" rel="noopener"
+          <a class="c-card c-wa wa-link" target="_blank" rel="noopener"
             href="https://wa.me/22890458096?text=Bonjour%20L%27AGENCE%2C%20je%20souhaite%20avoir%20des%20informations.">
             <span class="c-icon">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -284,7 +308,7 @@
             </span>
             <span class="c-text">
               <strong>WhatsApp</strong>
-              <small>Réponse rapide</small>
+              <small data-i18n="contact.waSub">Réponse rapide</small>
             </span>
             <span class="c-arrow">→</span>
           </a>
@@ -298,7 +322,7 @@
               </svg>
             </span>
             <span class="c-text">
-              <strong>Appeler</strong>
+              <strong data-i18n="contact.call">Appeler</strong>
               <small>(+228) 90 45 80 96</small>
             </span>
             <span class="c-arrow">→</span>
@@ -313,7 +337,7 @@
               </svg>
             </span>
             <span class="c-text">
-              <strong>E-mail</strong>
+              <strong data-i18n="contact.email">E-mail</strong>
               <small>leohoussou6@gmail.com</small>
             </span>
             <span class="c-arrow">→</span>
@@ -323,19 +347,20 @@
 
         <!-- 3 étapes -->
         <ol class="steps">
-          <li><b>1</b><span>Vous nous contactez</span></li>
-          <li><b>2</b><span>Nous étudions votre besoin</span></li>
-          <li><b>3</b><span>Nous nous occupons de tout</span></li>
+          <li><b>1</b><span data-i18n="step.1">Vous nous contactez</span></li>
+          <li><b>2</b><span data-i18n="step.2">Nous étudions votre besoin</span></li>
+          <li><b>3</b><span data-i18n="step.3">Nous nous occupons de tout</span></li>
         </ol>
 
         <!-- Carte -->
         <div class="map-wrap">
-          <iframe title="Localisation de L'AGENCE" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          <iframe title="Localisation de L'AGENCE" data-i18n-title="map.iframe" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
             src="https://maps.google.com/maps?q=Adakpam%C3%A9%20Awana%2C%20Lom%C3%A9%2C%20Togo&z=15&output=embed"></iframe>
 
           <a class="map-open" target="_blank" rel="noopener"
             href="https://www.google.com/maps/search/?api=1&query=Adakpam%C3%A9%20Awana%2C%20Lom%C3%A9%2C%20Togo">
-            Ouvrir dans Maps
+            <span data-i18n="map.open">Ouvrir dans Maps</span>
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
               stroke-linejoin="round">
               <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
@@ -353,9 +378,9 @@
             </span>
             <div class="map-text">
               <strong>L'AGENCE</strong>
-              <span>Adakpamé Awana, rue Djibom, dernière maison angle rue, Lomé</span>
+              <span data-i18n="map.address">Adakpamé Awana, rue Djibom, dernière maison angle rue, Lomé</span>
             </div>
-            <a class="map-route" target="_blank" rel="noopener"
+            <a class="map-route" target="_blank" rel="noopener" data-i18n="map.route"
               href="https://www.google.com/maps/dir/?api=1&destination=Adakpam%C3%A9%20Awana%2C%20Lom%C3%A9%2C%20Togo">
               Itinéraire
             </a>
@@ -377,26 +402,26 @@
     <div class="container footer-inner">
       <p class="footer-brand">L'AGENCE</p>
       <p class="footer-sub">Property Management &amp; Consulting</p>
-      <p class="footer-tagline">À l'Agence, nous faisons de votre abri un lieu de repos.</p>
+      <p class="footer-tagline" data-i18n="footer.tagline">À l'Agence, nous faisons de votre abri un lieu de repos.</p>
 
       <ul class="footer-links">
-        <li><a href="#accueil">Accueil</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#apropos">À propos</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#accueil" data-i18n="nav.home">Accueil</a></li>
+        <li><a href="#services" data-i18n="nav.services">Services</a></li>
+        <li><a href="#apropos" data-i18n="nav.about">À propos</a></li>
+        <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
       </ul>
 
       <hr>
       <div class="footer-bottom">
-        <p>© 2026 L'AGENCE. Tous droits réservés.</p>
-        <p class="credit">by <strong>BEDJRA KOFFI</strong></p>
+        <p data-i18n="footer.rights">© 2026 L'AGENCE. Tous droits réservés.</p>
+        <p class="credit"><span data-i18n="footer.by">by</span> <strong>BEDJRA KOFFI</strong></p>
       </div>
     </div>
 
   </footer>
 
   <!-- Bouton WhatsApp flottant -->
-  <a class="wa-float" aria-label="Discuter sur WhatsApp" target="_blank" rel="noopener"
+  <a class="wa-float wa-link" aria-label="Discuter sur WhatsApp" data-i18n-aria="wa.aria" target="_blank" rel="noopener"
     href="https://wa.me/22890458096?text=Bonjour%20L%27AGENCE%2C%20je%20souhaite%20avoir%20des%20informations.">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
       stroke-linejoin="round">
