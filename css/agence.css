@@ -1849,13 +1849,19 @@ section[id] {
 }
 
 /* ---- Petit mobile : on cache le sous-titre du logo ---- */
+/* ---- Petit mobile : sous-titre réduit mais visible ---- */
 @media (max-width: 480px) {
-    .logo .sub {
-        display: none;
+    .logo .name {
+        font-size: 1.05rem;
+        letter-spacing: .5px;
     }
 
-    .logo .name {
-        font-size: 1.1rem;
+    .logo .sub {
+        display: block;
+        font-size: .46rem;
+        letter-spacing: 0;
+        line-height: 1.15;
+        white-space: nowrap;
     }
 }
 
@@ -1872,8 +1878,12 @@ section[id] {
     }
 
     .logo .name {
-        font-size: 1rem;
-        letter-spacing: .5px;
+        font-size: .95rem;
+        letter-spacing: .3px;
+    }
+
+    .logo .sub {
+        font-size: .4rem;
     }
 
     .lang-switch button {
