@@ -1,3 +1,4 @@
+
 /* À placer dans css/agence.css */
 
 :root {
@@ -1893,5 +1894,81 @@ section[id] {
     .lang-switch .flag {
         width: 20px;
         height: 13px;
+    }
+}
+
+
+
+
+/* À AJOUTER à la fin de css/agence.css (après le CSS de la galerie) */
+
+/* Bouton "Voir +" */
+.gallery-more {
+    text-align: center;
+    margin-top: 36px;
+}
+
+.btn-outline-dark {
+    background: transparent;
+    color: var(--navy);
+    border-color: var(--navy);
+}
+
+.btn-outline-dark:hover {
+    background: var(--navy);
+    color: #fff;
+    border-color: var(--navy);
+}
+
+/* Bandeau de la page "Nos appartements" */
+.page-hero {
+    background:
+        radial-gradient(circle at 90% 10%, rgba(184, 149, 95, .35), transparent 45%),
+        linear-gradient(135deg, var(--navy-dark), var(--navy));
+    color: #fff;
+    text-align: center;
+    padding: 64px 0 56px;
+}
+
+.page-hero h1 {
+    font-size: clamp(1.8rem, 4vw, 2.8rem);
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 14px;
+}
+
+.page-hero h1::after {
+    content: "";
+    display: block;
+    width: 56px;
+    height: 3px;
+    border-radius: 3px;
+    background: var(--gold);
+    margin: 16px auto 0;
+}
+
+.page-hero p {
+    max-width: 600px;
+    margin: 18px auto 0;
+    opacity: .88;
+}
+
+.back-link {
+    display: inline-block;
+    margin-bottom: 22px;
+    color: var(--gold);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: .88rem;
+    letter-spacing: .5px;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .page-hero {
+        padding: 48px 0 40px;
     }
 }
