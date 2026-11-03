@@ -1,3 +1,24 @@
+  (function () {
+    var grid = document.querySelector('.apt-grid');
+    if (!grid) return;
+
+    var tiles = Array.prototype.slice.call(grid.querySelectorAll('.apt-tile'));
+
+    function key(tile) {
+      // utilise data-sort si présent, sinon le nom du lieu affiché
+      var txt = tile.dataset.sort ||
+        tile.querySelector('.apt-over-loc').textContent;
+      return txt
+        .trim()
+        .replace(/^(à côté de|a cote de|près de)\s+/i, ''); // "À côté de CERFER" -> "CERFER"
+    }
+
+    tiles.sort(function (a, b) {
+      return key(a).localeCompare(key(b), 'fr', { sensitivity: 'base' });
+    });
+
+    tiles.forEach(function (t) { grid.appendChild(t); });
+  })();
 // Fichier complet : à enregistrer sous js/galerie.js
 // et à charger APRÈS agence.js : <script src="js/galerie.js"></script>
 // (dans index.html ET dans appartements.html)
