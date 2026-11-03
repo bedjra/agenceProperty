@@ -1,24 +1,24 @@
 (function () {
-    var grid = document.querySelector('.apt-grid');
-    if (!grid) return;
+  var grid = document.querySelector('.apt-grid');
+  if (!grid) return;
 
-    var tiles = Array.prototype.slice.call(grid.querySelectorAll('.apt-tile'));
+  var tiles = Array.prototype.slice.call(grid.querySelectorAll('.apt-tile'));
 
-    function key(tile) {
-      // utilise data-sort si présent, sinon le nom du lieu affiché
-      var txt = tile.dataset.sort ||
-        tile.querySelector('.apt-over-loc').textContent;
-      return txt
-        .trim()
-        .replace(/^(à côté de|a cote de|près de)\s+/i, ''); // "À côté de CERFER" -> "CERFER"
-    }
+  function key(tile) {
+    // utilise data-sort si présent, sinon le nom du lieu affiché
+    var txt = tile.dataset.sort ||
+      tile.querySelector('.apt-over-loc').textContent;
+    return txt
+      .trim()
+      .replace(/^(à côté de|a cote de|près de)\s+/i, ''); // "À côté de CERFER" -> "CERFER"
+  }
 
-    tiles.sort(function (a, b) {
-      return key(a).localeCompare(key(b), 'fr', { sensitivity: 'base' });
-    });
+  tiles.sort(function (a, b) {
+    return key(a).localeCompare(key(b), 'fr', { sensitivity: 'base' });
+  });
 
-    tiles.forEach(function (t) { grid.appendChild(t); });
-  })();
+  tiles.forEach(function (t) { grid.appendChild(t); });
+})();
 // Fichier complet : à enregistrer sous js/galerie.js
 // et à charger APRÈS agence.js : <script src="js/galerie.js"></script>
 // (dans index.html ET dans appartements.html)
@@ -85,6 +85,7 @@ Object.assign(I18N.fr, {
   'gal.a7.tag': 'Disponible',
   'gal.a7.loc': 'À côté de CERFER',
   'gal.a7.title': 'Appartement disponible à côté de CERFER',
+  'gal.a9.title': 'Logement disponible à Sito Aéroport',
 
   // --- Prestations ---
   'gal.p.title': "Nos prestations de nettoyage et d'entretien",
@@ -157,7 +158,8 @@ Object.assign(I18N.en, {
   'gal.a7.tag': 'Available',
   'gal.a7.loc': 'Next to CERFER',
   'gal.a7.title': 'Apartment available next to CERFER',
-
+  'gal.a9.title': 'Property available in Sito Aéroport',
+  
   // --- Services ---
   'gal.p.title': 'Our cleaning and upkeep services',
   'gal.p.intro': 'A few pictures of our work.',
