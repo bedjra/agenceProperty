@@ -86,7 +86,9 @@ Object.assign(I18N.fr, {
   'gal.a7.loc': 'À côté de CERFER',
   'gal.a7.title': 'Appartement disponible à côté de CERFER',
   'gal.a9.title': 'Logement disponible à Sito Aéroport',
-
+  'gal.a10.title': 'Logement disponible à Avédji',
+  'gal.a10.locShort': 'Avédji, pas loin de la pharmacie Apollon',
+  
   // --- Prestations ---
   'gal.p.title': "Nos prestations de nettoyage et d'entretien",
   'gal.p.intro': 'Quelques images de nos prestations.',
@@ -159,7 +161,9 @@ Object.assign(I18N.en, {
   'gal.a7.loc': 'Next to CERFER',
   'gal.a7.title': 'Apartment available next to CERFER',
   'gal.a9.title': 'Property available in Sito Aéroport',
-  
+  'gal.a10.title': 'Property available in Avédji',
+  'gal.a10.locShort': 'Avédji, not far from the Apollon pharmacy',
+
   // --- Services ---
   'gal.p.title': 'Our cleaning and upkeep services',
   'gal.p.intro': 'A few pictures of our work.',
