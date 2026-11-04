@@ -66,7 +66,7 @@ Object.assign(I18N.fr, {
   'gal.a5.loc': 'Djagblé, non loin du lycée, à 200 m du goudron',
   'gal.a5.desc': 'Nouvelle construction : pièces, WC, douche et cuisine internes. Finition en cours.',
   'gal.a5.i1': 'Avance et caution : 8 mois',
-  'gal.a5.i2': 'Visite : 5 000 F',
+  'gal.a5.i2': 'Visite : Gratuite',
   'gal.a5.i3': "Frais d'agence : 1 mois",
 
   // --- Appartement 6 : 2 chambres salon, Avédji ---
@@ -88,7 +88,11 @@ Object.assign(I18N.fr, {
   'gal.a9.title': 'Logement disponible à Sito Aéroport',
   'gal.a10.title': 'Logement disponible à Avédji',
   'gal.a10.locShort': 'Avédji, pas loin de la pharmacie Apollon',
-  
+    'gal.day': '/ jour',
+  'gal.a8.title': 'Chambre salon, même immeuble à côté de CERFER',
+  'gal.a11.title': 'Chambre salon à la journée',
+  'gal.a12.title': '2 chambres salon à la journée',
+
   // --- Prestations ---
   'gal.p.title': "Nos prestations de nettoyage et d'entretien",
   'gal.p.intro': 'Quelques images de nos prestations.',
@@ -141,7 +145,7 @@ Object.assign(I18N.en, {
   'gal.a5.loc': 'Djagblé, not far from the high school, 200 m from the paved road',
   'gal.a5.desc': 'New building: rooms, toilet, shower and kitchen inside. Finishing work in progress.',
   'gal.a5.i1': 'Advance and deposit: 8 months',
-  'gal.a5.i2': 'Viewing: 5,000 F',
+  'gal.a5.i2': 'Viewing: Free',
   'gal.a5.i3': 'Agency fee: 1 month',
 
   // --- Apartment 6: 2 bedrooms + living room, Avédji ---
@@ -163,7 +167,11 @@ Object.assign(I18N.en, {
   'gal.a9.title': 'Property available in Sito Aéroport',
   'gal.a10.title': 'Property available in Avédji',
   'gal.a10.locShort': 'Avédji, not far from the Apollon pharmacy',
-
+  'gal.day': '/ day',
+  'gal.a8.title': '1 bedroom + living room, same building next to CERFER',
+  'gal.a11.title': '1 bedroom + living room, daily rental',
+  'gal.a12.title': '2 bedrooms + living room, daily rental',
+  
   // --- Services ---
   'gal.p.title': 'Our cleaning and upkeep services',
   'gal.p.intro': 'A few pictures of our work.',
