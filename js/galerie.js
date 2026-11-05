@@ -88,11 +88,14 @@ Object.assign(I18N.fr, {
   'gal.a9.title': 'Logement disponible à Sito Aéroport',
   'gal.a10.title': 'Logement disponible à Avédji',
   'gal.a10.locShort': 'Avédji, pas loin de la pharmacie Apollon',
-    'gal.day': '/ jour',
+  'gal.day': '/ jour',
   'gal.a8.title': 'Chambre salon, même immeuble à côté de CERFER',
   'gal.a11.title': 'Chambre salon à la journée',
   'gal.a12.title': '2 chambres salon à la journée',
-
+  'gal.a13.title': 'Logement disponible à Lomé, Avédji',
+  'gal.a13.locShort': 'Lomé, Avédji',
+  'gal.a14.title': "Studio meublé à l'étage à Agoè Assiyéyé",
+  'gal.a15.title': '2 chambres salon meublé à Adidoadin',
   // --- Prestations ---
   'gal.p.title': "Nos prestations de nettoyage et d'entretien",
   'gal.p.intro': 'Quelques images de nos prestations.',
@@ -171,7 +174,11 @@ Object.assign(I18N.en, {
   'gal.a8.title': '1 bedroom + living room, same building next to CERFER',
   'gal.a11.title': '1 bedroom + living room, daily rental',
   'gal.a12.title': '2 bedrooms + living room, daily rental',
-  
+  'gal.a13.title': 'Property available in Lomé, Avédji',
+  'gal.a13.locShort': 'Lomé, Avédji',
+  'gal.a14.title': 'Furnished studio on the upper floor in Agoè Assiyéyé',
+  'gal.a15.title': 'Furnished 2 bedrooms + living room in Adidoadin',
+
   // --- Services ---
   'gal.p.title': 'Our cleaning and upkeep services',
   'gal.p.intro': 'A few pictures of our work.',
