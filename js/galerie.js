@@ -1,3 +1,10 @@
+// Fichier complet : à enregistrer sous js/galerie.js
+// et à charger APRÈS agence.js : <script src="js/galerie.js"></script>
+// (dans index.html ET dans appartements.html)
+
+// =====================================================
+//  GALERIE : tri alphabétique des appartements
+// =====================================================
 (function () {
   var grid = document.querySelector('.apt-grid');
   if (!grid) return;
@@ -19,9 +26,6 @@
 
   tiles.forEach(function (t) { grid.appendChild(t); });
 })();
-// Fichier complet : à enregistrer sous js/galerie.js
-// et à charger APRÈS agence.js : <script src="js/galerie.js"></script>
-// (dans index.html ET dans appartements.html)
 
 // =====================================================
 //  GALERIE : traductions FR + EN
@@ -34,13 +38,16 @@ Object.assign(I18N.fr, {
 
   // --- Textes communs ---
   'gal.night': '/ nuitée',
+  'gal.day': '/ jour',
   'gal.month': '/ mois',
   'gal.monthAll': '/ mois, tous frais inclus',
   'gal.deposit': "Caution d'entrée",
   'gal.book': 'Réserver sur WhatsApp',
   'gal.contact': 'Contacter sur WhatsApp',
+  'gal.quote': 'Demander un devis',
   'gal.included': 'Services inclus dans le tarif de location :',
   'gal.inc.title': 'Inclus :',
+  'wa.quote': "Bonjour L'AGENCE, je souhaite un devis pour l'ameublement.",
 
   // --- Appartement 1 : Agoè Minamadou ---
   'gal.a1.tag': 'Haut standing',
@@ -81,21 +88,71 @@ Object.assign(I18N.fr, {
   'gal.a6.i2': 'Avance : 2 mois',
   'gal.a6.i3': 'Commission : 1 mois',
 
-  // --- Appartement 7 : à côté de CERFER ---
+  // --- Appartements 7 à 12 ---
   'gal.a7.tag': 'Disponible',
   'gal.a7.loc': 'À côté de CERFER',
   'gal.a7.title': 'Appartement disponible à côté de CERFER',
+  'gal.a8.title': 'Chambre salon, même immeuble à côté de CERFER',
   'gal.a9.title': 'Logement disponible à Sito Aéroport',
   'gal.a10.title': 'Logement disponible à Avédji',
   'gal.a10.locShort': 'Avédji, pas loin de la pharmacie Apollon',
-  'gal.day': '/ jour',
-  'gal.a8.title': 'Chambre salon, même immeuble à côté de CERFER',
   'gal.a11.title': 'Chambre salon à la journée',
   'gal.a12.title': '2 chambres salon à la journée',
+
+  // --- Appartement 13 : Avédji (nuitée, non affiché pour le moment) ---
   'gal.a13.title': 'Logement disponible à Lomé, Avédji',
   'gal.a13.locShort': 'Lomé, Avédji',
-  'gal.a14.title': "Studio meublé à l'étage à Agoè Assiyéyé",
-  'gal.a15.title': '2 chambres salon meublé à Adidoadin',
+
+  // --- Appartement 14 : Avénou, station T-oil ---
+  'gal.a14.title': 'Chambre salon meublé à Avénou',
+  'gal.a14.loc': 'Avénou, à la station-service T-oil',
+  'gal.a14.locShort': 'Avénou, station T-oil',
+
+  // --- Appartement 15 : Agoè Assiyéyé ---
+  'gal.a15.title': "Studio meublé à l'étage à Agoè Assiyéyé",
+
+  // --- Appartement 16 : Adidoadin ---
+  'gal.a16.title': '2 chambres salon meublé à Adidoadin',
+
+  // --- Vidéos ---
+  'gal.v.title': 'Nos vidéos',
+
+  'gal.v3.title': "Appartement meublé à l'étage, chambre salon tout interne",
+  'gal.v3.f1': 'Terrasse',
+  'gal.v3.f2': 'Machine à laver',
+  'gal.v3.f3': 'Rooftop',
+  'gal.v3.loc': 'Agbalepedo, Cours Lumière, au bord du goudron',
+  'gal.v3.dep': 'Caution : 50 000 F, remboursable',
+  'gal.v3.fee1': 'Honoraires : 25 % (court séjour)',
+  'gal.v3.fee2': 'Honoraires : 1 mois (long séjour)',
+
+  'gal.v6.title': "Appartement neuf à l'étage, bien staffé, dans une belle maison",
+  'gal.v6.f1': 'Pièces',
+  'gal.v6.f2': 'WC et douche internes',
+  'gal.v6.f3': 'Cuisine interne',
+  'gal.v6.f4': 'Cash power personnel',
+  'gal.v6.loc': 'Amoutiévé, non loin de la pharmacie Akofa',
+  'gal.v6.t1': 'Avance et caution : 10 mois',
+  'gal.v6.t2': 'Visite : 5 000 F',
+  'gal.v6.t3': 'Commission : 1 mois',
+
+  'gal.v7.title': "À louer : nouvelle construction à l'étage",
+  'gal.v7.loc': "Derrière l'école primaire publique Kitidjan, non loin de la maison du ministre Bawara et de la clôture de l'état-major",
+  'gal.v7.t1': 'Avance et caution : 12 mois, négociable',
+  'gal.v7.t2': 'Produits en direct',
+
+  // --- Ameublements ---
+  'gal.f.title': 'Nos ameublements',
+  'gal.f.intro': 'Meubles et décoration pour un logement prêt à vivre.',
+  'gal.f1.tag': 'Salon',
+  'gal.f1.name': 'Ameublement salon',
+  'gal.f1.title': 'Ameublement de salon',
+  'gal.f1.desc': 'Canapés, tables et décoration pour un salon accueillant.',
+  'gal.f2.tag': 'Ameublement',
+  'gal.f2.name': 'Ameublement complet',
+  'gal.f2.title': 'Ameublement complet',
+  'gal.f2.desc': 'Meubles et décoration pour un logement prêt à vivre.',
+
   // --- Prestations ---
   'gal.p.title': "Nos prestations de nettoyage et d'entretien",
   'gal.p.intro': 'Quelques images de nos prestations.',
@@ -116,13 +173,16 @@ Object.assign(I18N.en, {
 
   // --- Common texts ---
   'gal.night': '/ night',
+  'gal.day': '/ day',
   'gal.month': '/ month',
   'gal.monthAll': '/ month, all fees included',
   'gal.deposit': 'Entry deposit',
   'gal.book': 'Book on WhatsApp',
   'gal.contact': 'Contact on WhatsApp',
+  'gal.quote': 'Request a quote',
   'gal.included': 'Services included in the rental price:',
   'gal.inc.title': 'Included:',
+  'wa.quote': "Hello L'AGENCE, I would like a quote for furnishing.",
 
   // --- Apartment 1: Agoè Minamadou ---
   'gal.a1.tag': 'High standard',
@@ -163,21 +223,70 @@ Object.assign(I18N.en, {
   'gal.a6.i2': 'Advance: 2 months',
   'gal.a6.i3': 'Commission: 1 month',
 
-  // --- Apartment 7: next to CERFER ---
+  // --- Apartments 7 to 12 ---
   'gal.a7.tag': 'Available',
   'gal.a7.loc': 'Next to CERFER',
   'gal.a7.title': 'Apartment available next to CERFER',
+  'gal.a8.title': '1 bedroom + living room, same building next to CERFER',
   'gal.a9.title': 'Property available in Sito Aéroport',
   'gal.a10.title': 'Property available in Avédji',
   'gal.a10.locShort': 'Avédji, not far from the Apollon pharmacy',
-  'gal.day': '/ day',
-  'gal.a8.title': '1 bedroom + living room, same building next to CERFER',
   'gal.a11.title': '1 bedroom + living room, daily rental',
   'gal.a12.title': '2 bedrooms + living room, daily rental',
+
+  // --- Apartment 13: Avédji (nightly, not displayed for now) ---
   'gal.a13.title': 'Property available in Lomé, Avédji',
   'gal.a13.locShort': 'Lomé, Avédji',
-  'gal.a14.title': 'Furnished studio on the upper floor in Agoè Assiyéyé',
-  'gal.a15.title': 'Furnished 2 bedrooms + living room in Adidoadin',
+
+  // --- Apartment 14: Avénou, T-oil station ---
+  'gal.a14.title': 'Furnished 1 bedroom + living room in Avénou',
+  'gal.a14.loc': 'Avénou, at the T-oil service station',
+  'gal.a14.locShort': 'Avénou, T-oil station',
+
+  // --- Apartment 15: Agoè Assiyéyé ---
+  'gal.a15.title': 'Furnished studio on the upper floor in Agoè Assiyéyé',
+
+  // --- Apartment 16: Adidoadin ---
+  'gal.a16.title': 'Furnished 2 bedrooms + living room in Adidoadin',
+
+  // --- Videos ---
+  'gal.v.title': 'Our videos',
+
+  'gal.v3.title': 'Furnished upper-floor apartment, 1 bedroom + living room, all indoor',
+  'gal.v3.f1': 'Terrace',
+  'gal.v3.f2': 'Washing machine',
+  'gal.v3.f3': 'Rooftop',
+  'gal.v3.loc': 'Agbalepedo, Cours Lumière, along the paved road',
+  'gal.v3.dep': 'Deposit: 50,000 F, refundable',
+  'gal.v3.fee1': 'Fees: 25% (short stay)',
+  'gal.v3.fee2': 'Fees: 1 month (long stay)',
+
+  'gal.v6.title': 'New upper-floor apartment, nicely finished, in a beautiful house',
+  'gal.v6.f1': 'Rooms',
+  'gal.v6.f2': 'Indoor toilet and shower',
+  'gal.v6.f3': 'Indoor kitchen',
+  'gal.v6.f4': 'Personal prepaid electricity meter',
+  'gal.v6.loc': 'Amoutiévé, not far from the Akofa pharmacy',
+  'gal.v6.t1': 'Advance and deposit: 10 months',
+  'gal.v6.t2': 'Viewing: 5,000 F',
+  'gal.v6.t3': 'Commission: 1 month',
+
+  'gal.v7.title': 'For rent: new upper-floor building',
+  'gal.v7.loc': "Behind Kitidjan public primary school, not far from minister Bawara's house and the General Staff fence",
+  'gal.v7.t1': 'Advance and deposit: 12 months, negotiable',
+  'gal.v7.t2': 'Direct utilities',
+
+  // --- Furnishing ---
+  'gal.f.title': 'Our furnishing',
+  'gal.f.intro': 'Furniture and decoration for a home ready to live in.',
+  'gal.f1.tag': 'Living room',
+  'gal.f1.name': 'Living room furnishing',
+  'gal.f1.title': 'Living room furnishing',
+  'gal.f1.desc': 'Sofas, tables and decoration for a welcoming living room.',
+  'gal.f2.tag': 'Furnishing',
+  'gal.f2.name': 'Complete furnishing',
+  'gal.f2.title': 'Complete furnishing',
+  'gal.f2.desc': 'Furniture and decoration for a home ready to live in.',
 
   // --- Services ---
   'gal.p.title': 'Our cleaning and upkeep services',
@@ -191,13 +300,22 @@ Object.assign(I18N.en, {
   'app.ask': 'Need something else? Contact us'
 });
 
-// Sur la page appartements.html, garde le bon titre d'onglet quand on change de langue
+// Sur la page appartements.html, garde le bon titre d'onglet quand on change de langue.
+// Met aussi à jour le message WhatsApp des boutons "Demander un devis" (classe wa-quote).
 (function () {
   const baseSetLang = setLang;
   setLang = function (lang) {
     baseSetLang(lang);
+
     const key = document.body.dataset.title;
     if (key && I18N[lang] && I18N[lang][key]) document.title = I18N[lang][key];
+
+    const msg = I18N[lang] && I18N[lang]['wa.quote'];
+    if (msg) {
+      document.querySelectorAll('.wa-quote').forEach((a) => {
+        a.href = 'https://wa.me/22890458096?text=' + encodeURIComponent(msg);
+      });
+    }
   };
 })();
 
