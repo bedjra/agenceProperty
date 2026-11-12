@@ -158,7 +158,7 @@ Object.assign(I18N.fr, {
   'gal.v9.f3': 'Chauffe-eau, salle de linge avec machine à laver',
   'gal.v9.f4': 'Balcon, wifi gratuit, Canal+',
   'gal.v9.f5': 'Garage personnel et agent de sécurité',
-  'gal.v9.loc': "Ablogamé, Lomé, non loin de l'hôtel Sarakawa, derrière Ecobank",
+  'gal.v9.loc': "Avepozo, Akerebourou",
   'gal.v9.t1': 'Caution : 50 000 F (remboursable)',
   'gal.v9.t2': 'Commission : 25 %',
 
@@ -356,7 +356,7 @@ Object.assign(I18N.en, {
   'gal.v9.f3': 'Water heater, laundry room with washing machine',
   'gal.v9.f4': 'Balcony, free wifi, Canal+',
   'gal.v9.f5': 'Private garage and security guard',
-  'gal.v9.loc': 'Ablogamé, Lomé, not far from Sarakawa hotel, behind Ecobank',
+  'gal.v9.loc': 'Avepozo, Akerebourou',
   'gal.v9.t1': 'Deposit: 50,000 F (refundable)',
   'gal.v9.t2': 'Commission: 25%',
 
