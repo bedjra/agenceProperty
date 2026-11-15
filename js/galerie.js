@@ -221,6 +221,30 @@ Object.assign(I18N.fr, {
   'gal.v14.t4': 'Commission : 25 %',
   'gal.v14.ideal': "Parfait pour les familles en quête d'espace et de sécurité, ou pour des groupes d'amis et collègues en voyage d'affaires.",
   
+    'gal.v15.title': 'Appartement meublé à louer, 3 chambres - salon',
+  'gal.v15.f1': '3 chambres et un salon, entièrement meublé',
+  'gal.v15.f2': 'Cadre confortable et agréable à Lomé',
+  'gal.v15.f3': 'Idéal pour séjours en famille, entre amis ou professionnels',
+  'gal.v15.loc': "Ablogamé, Lomé : non loin de l'hôtel Sarakawa, derrière Ecobank",
+  'gal.v15.t1': '1 nuitée : 70 000 F',
+  'gal.v15.t2': '1 semaine : 350 000 F',
+  'gal.v15.t3': '2 semaines : 500 000 F',
+  'gal.v15.t4': '1 mois : 800 000 F',
+  'gal.v15.t5': 'Caution : 50 000 F',
+  'gal.v15.ideal': "Parfait pour les familles, les groupes d'amis ou les séjours professionnels à Lomé.",
+
+  'gal.v16.title': 'Appartement meublé à louer, 1 chambre - salon',
+  'gal.v16.f1': '1 chambre et un salon, entièrement meublé',
+  'gal.v16.f2': 'Cadre agréable pour vos séjours à Lomé',
+  'gal.v16.f3': 'Pour quelques jours ou plusieurs semaines',
+  'gal.v16.loc': "Ablogamé, Lomé : non loin de l'hôtel Sarakawa, derrière Ecobank",
+  'gal.v16.t1': '1 nuitée : 35 000 F',
+  'gal.v16.t2': '1 semaine : 200 000 F',
+  'gal.v16.t3': '2 semaines : 375 000 F',
+  'gal.v16.t4': '1 mois : 500 000 F',
+  'gal.v16.t5': 'Caution : 50 000 F',
+  'gal.v16.ideal': 'Idéal pour une personne seule ou un couple, en séjour court ou long à Lomé.',
+
     // --- Land ---
   'gal.t.title': 'Land for sale',
   'gal.t.intro': 'Plots available for your building project.',
@@ -343,6 +367,7 @@ Object.assign(I18N.en, {
   // --- Apartment 16: Adidoadin ---
   'gal.a16.title': 'Furnished 2 bedrooms + living room in Adidoadin',
 
+
   // --- Videos ---
   'gal.v.title': 'Our videos',
 
@@ -449,6 +474,30 @@ Object.assign(I18N.en, {
   'gal.v14.t4': 'Commission: 25%',
   'gal.v14.ideal': 'Perfect for families looking for space and security, or for groups of friends and colleagues on a business trip.',
 
+    'gal.v15.title': 'Furnished apartment for rent, 3 bedrooms + living room',
+  'gal.v15.f1': '3 bedrooms and a living room, fully furnished',
+  'gal.v15.f2': 'Comfortable and pleasant setting in Lomé',
+  'gal.v15.f3': 'Ideal for family, friends or business stays',
+  'gal.v15.loc': 'Ablogamé, Lomé: not far from Sarakawa hotel, behind Ecobank',
+  'gal.v15.t1': '1 night: 70,000 F',
+  'gal.v15.t2': '1 week: 350,000 F',
+  'gal.v15.t3': '2 weeks: 500,000 F',
+  'gal.v15.t4': '1 month: 800,000 F',
+  'gal.v15.t5': 'Deposit: 50,000 F',
+  'gal.v15.ideal': 'Perfect for families, groups of friends or business stays in Lomé.',
+
+  'gal.v16.title': 'Furnished apartment for rent, 1 bedroom + living room',
+  'gal.v16.f1': '1 bedroom and a living room, fully furnished',
+  'gal.v16.f2': 'Pleasant setting for your stays in Lomé',
+  'gal.v16.f3': 'For a few days or several weeks',
+  'gal.v16.loc': 'Ablogamé, Lomé: not far from Sarakawa hotel, behind Ecobank',
+  'gal.v16.t1': '1 night: 35,000 F',
+  'gal.v16.t2': '1 week: 200,000 F',
+  'gal.v16.t3': '2 weeks: 375,000 F',
+  'gal.v16.t4': '1 month: 500,000 F',
+  'gal.v16.t5': 'Deposit: 50,000 F',
+  'gal.v16.ideal': 'Ideal for a single person or a couple, on a short or long stay in Lomé.',
+  
     // --- Land ---
   'gal.t.title': 'Land for sale',
   'gal.t.intro': 'Plots available for your building project.',
