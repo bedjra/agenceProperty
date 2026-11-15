@@ -114,6 +114,22 @@ Object.assign(I18N.fr, {
   // --- Appartement 16 : Adidoadin ---
   'gal.a16.title': '2 chambres salon meublé à Adidoadin',
 
+  // --- Appartement 17 : Studio, Adidoadin ---
+  'gal.a17.tag': 'Studio',
+  'gal.a17.title': 'Studio meublé à Adidoadin',
+
+  // --- Appartement 18 : Adidogomé Avénou ---
+  'gal.a18.tag': 'Haut standing',
+  'gal.a18.title': "Luxueux appartement meublé à l'étage, 3 à 4 chambres salon",
+  'gal.a18.loc': "Adidogomé Avénou, à l'étage",
+  'gal.a18.desc': 'Appartement meublé haut standing, tout neuf, de 3 à 4 chambres salon. Disponible, en direct.',
+  'gal.a18.rent3': '/ mois, 3 chambres',
+  'gal.a18.rent4': '/ mois, 4 chambres',
+  'gal.a18.i1': 'Caution : 100 000 F',
+  'gal.a18.i2': 'Visite : 5 000 F',
+  'gal.a18.i3': 'Honoraires : 25 % (court séjour)',
+  'gal.a18.i4': 'Honoraires : 1 mois (long séjour)',
+
   // --- Vidéos ---
   'gal.v.title': 'Nos vidéos',
 
@@ -220,8 +236,8 @@ Object.assign(I18N.fr, {
   'gal.v14.t3': '1 mois : 650 000 F',
   'gal.v14.t4': 'Commission : 25 %',
   'gal.v14.ideal': "Parfait pour les familles en quête d'espace et de sécurité, ou pour des groupes d'amis et collègues en voyage d'affaires.",
-  
-    'gal.v15.title': 'Appartement meublé à louer, 3 chambres - salon',
+
+  'gal.v15.title': 'Appartement meublé à louer, 3 chambres - salon',
   'gal.v15.f1': '3 chambres et un salon, entièrement meublé',
   'gal.v15.f2': 'Cadre confortable et agréable à Lomé',
   'gal.v15.f3': 'Idéal pour séjours en famille, entre amis ou professionnels',
@@ -245,7 +261,7 @@ Object.assign(I18N.fr, {
   'gal.v16.t5': 'Caution : 50 000 F',
   'gal.v16.ideal': 'Idéal pour une personne seule ou un couple, en séjour court ou long à Lomé.',
 
-    // --- Land ---
+  // --- Land ---
   'gal.t.title': 'Land for sale',
   'gal.t.intro': 'Plots available for your building project.',
   'gal.t1.tag': 'Land',
@@ -258,7 +274,7 @@ Object.assign(I18N.fr, {
   'gal.t1.i1': 'Size: former 1 plot',
   'gal.t1.i2': 'Document: land title available',
   'gal.t1.i3': 'Viewing: by appointment',
-  
+
   // --- Ameublements ---
   'gal.f.title': 'Nos ameublements',
   'gal.f.intro': 'Meubles et décoration pour un logement prêt à vivre.',
@@ -367,6 +383,23 @@ Object.assign(I18N.en, {
   // --- Apartment 16: Adidoadin ---
   'gal.a16.title': 'Furnished 2 bedrooms + living room in Adidoadin',
 
+  // --- Apartment 17: Studio, Adidoadin ---
+  'gal.a17.tag': 'Studio',
+  'gal.a17.title': 'Furnished studio in Adidoadin',
+
+  // --- Apartment 18: Adidogomé Avénou ---
+  'gal.a18.tag': 'High standard',
+  'gal.a18.title': 'Luxury furnished upper-floor apartment, 3 to 4 bedrooms + living room',
+  'gal.a18.loc': 'Adidogomé Avénou, upper floor',
+  'gal.a18.desc': 'Brand-new high-standard furnished apartment with 3 to 4 bedrooms and a living room. Available, direct from owner.',
+  'gal.a18.rent3': '/ month, 3 bedrooms',
+  'gal.a18.rent4': '/ month, 4 bedrooms',
+  'gal.a18.i1': 'Deposit: 100,000 F',
+  'gal.a18.i2': 'Viewing: 5,000 F',
+  'gal.a18.i3': 'Fees: 25% (short stay)',
+  'gal.a18.i4': 'Fees: 1 month (long stay)',
+
+
 
   // --- Videos ---
   'gal.v.title': 'Our videos',
@@ -474,7 +507,7 @@ Object.assign(I18N.en, {
   'gal.v14.t4': 'Commission: 25%',
   'gal.v14.ideal': 'Perfect for families looking for space and security, or for groups of friends and colleagues on a business trip.',
 
-    'gal.v15.title': 'Furnished apartment for rent, 3 bedrooms + living room',
+  'gal.v15.title': 'Furnished apartment for rent, 3 bedrooms + living room',
   'gal.v15.f1': '3 bedrooms and a living room, fully furnished',
   'gal.v15.f2': 'Comfortable and pleasant setting in Lomé',
   'gal.v15.f3': 'Ideal for family, friends or business stays',
@@ -497,8 +530,8 @@ Object.assign(I18N.en, {
   'gal.v16.t4': '1 month: 500,000 F',
   'gal.v16.t5': 'Deposit: 50,000 F',
   'gal.v16.ideal': 'Ideal for a single person or a couple, on a short or long stay in Lomé.',
-  
-    // --- Land ---
+
+  // --- Land ---
   'gal.t.title': 'Land for sale',
   'gal.t.intro': 'Plots available for your building project.',
   'gal.t1.tag': 'Land',
