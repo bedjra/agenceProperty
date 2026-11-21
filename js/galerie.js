@@ -130,6 +130,41 @@ Object.assign(I18N.fr, {
   'gal.a18.i3': 'Honoraires : 25 % (court séjour)',
   'gal.a18.i4': 'Honoraires : 1 mois (long séjour)',
 
+  // --- Appartement 19 : Résidence 5 chambres, Adidogomé Sagbado ---
+  'gal.a19.tag': '5 chambres',
+  'gal.a19.title': 'Résidence meublée avec grand espace, 5 chambres climatisées',
+  'gal.a19.loc': 'Adidogomé Sagbado, après la station Yatt & Co, à 5 minutes du goudron',
+  'gal.a19.desc': "Résidence meublée composée de 5 chambres climatisées, chacune avec sa salle d'eau. Salon avec salle à manger, coin buanderie avec machine à laver. Garage disponible pour plusieurs voitures.",
+  'gal.a19.week': '/ semaine',
+  'gal.a19.p1': '/ 1 semaine',
+  'gal.a19.p2': '/ 2 semaines',
+  'gal.a19.p3': '/ 3 semaines',
+  'gal.a19.p4': '/ 1 mois',
+  'gal.a19.i1': 'Caution : 100 000 F remboursable',
+  'gal.a19.i3': 'Honoraires : 25 % (court séjour)',
+  'gal.a19.i4': 'Honoraires : 1 mois (long séjour)',
+
+  // --- Appartement 20 : Villa 2 chambres salon, Avedji Cito ---
+  'gal.a20.tag': 'Villa meublée',
+  'gal.a20.month': '/ mois',
+  'gal.a20.title': 'Villa meublée à cour unique, 2 chambres salon',
+  'gal.a20.loc': 'Avedji Cito, à 150 mètres du goudron',
+  'gal.a20.desc': 'Villa meublée à cour unique de 2 chambres salon, avec WC douche, cuisine et machine à laver. Garage et espace jardin.',
+  'gal.a20.rent': '/ mois',
+  'gal.a20.i1': 'Caution : 50 000 F',
+  'gal.a20.i2': 'Visite : payante',
+  'gal.a20.i3': 'Honoraires : 25 % (court séjour)',
+  'gal.a20.i4': 'Honoraires : 1 mois (long séjour)',
+
+  // --- Appartement 21 : Agoè Logopé ---
+  'gal.a21.title': "Chambre salon meublé à l'étage à Agoè Logopé",
+  'gal.a21.loc': 'Agoè Logopé, non loin de la pharmacie BOAD-LOI',
+  'gal.a21.rent': '/ mois',
+
+    // --- Appartement 22 : Agoè Logopé, rez-de-chaussée ---
+  'gal.a22.title': '2 chambres salon meublé au rez-de-chaussée à Agoè Logopé',
+
+
   // --- Vidéos ---
   'gal.v.title': 'Nos vidéos',
 
@@ -261,6 +296,7 @@ Object.assign(I18N.fr, {
   'gal.v16.t5': 'Caution : 50 000 F',
   'gal.v16.ideal': 'Idéal pour une personne seule ou un couple, en séjour court ou long à Lomé.',
 
+  
   // --- Land ---
   'gal.t.title': 'Land for sale',
   'gal.t.intro': 'Plots available for your building project.',
@@ -275,7 +311,7 @@ Object.assign(I18N.fr, {
   'gal.t1.i2': 'Document: land title available',
   'gal.t1.i3': 'Viewing: by appointment',
 
-    // --- Terrain 3 : Djagblé, quartier Lowé ---
+  // --- Terrain 3 : Djagblé, quartier Lowé ---
   'gal.t3.tag': 'Terrain',
   'gal.t3.name': 'Terrain à Djagblé, quartier Lowé',
   'gal.t3.title': 'Terrain à vendre à Djagblé, quartier Lowé',
@@ -411,7 +447,41 @@ Object.assign(I18N.en, {
   'gal.a18.i3': 'Fees: 25% (short stay)',
   'gal.a18.i4': 'Fees: 1 month (long stay)',
 
+  // --- Apartment 19: 5-bedroom residence, Adidogomé Sagbado ---
+  'gal.a19.tag': '5 bedrooms',
+  'gal.a19.title': 'Furnished residence with large space, 5 air-conditioned bedrooms',
+  'gal.a19.loc': 'Adidogomé Sagbado, past the Yatt & Co station, 5 minutes from the paved road',
+  'gal.a19.desc': 'Furnished residence with 5 air-conditioned bedrooms, each with its own bathroom. Living room with dining area, laundry corner with washing machine. Garage space for several cars.',
+  'gal.a19.week': '/ week',
+  'gal.a19.p1': '/ 1 week',
+  'gal.a19.p2': '/ 2 weeks',
+  'gal.a19.p3': '/ 3 weeks',
+  'gal.a19.p4': '/ 1 month',
+  'gal.a19.i1': 'Deposit: 100,000 F, refundable',
+  'gal.a19.i3': 'Fees: 25% (short stay)',
+  'gal.a19.i4': 'Fees: 1 month (long stay)',
 
+  // --- Apartment 20: 2 bedrooms + living room villa, Avedji Cito ---
+  'gal.a20.tag': 'Furnished villa',
+  'gal.a20.month': '/ month',
+  'gal.a20.title': 'Furnished single-courtyard villa, 2 bedrooms + living room',
+  'gal.a20.loc': 'Avedji Cito, 150 meters from the paved road',
+  'gal.a20.desc': 'Furnished single-courtyard villa with 2 bedrooms and a living room, with toilet and shower, kitchen and washing machine. Garage and garden space.',
+  'gal.a20.rent': '/ month',
+  'gal.a20.i1': 'Deposit: 50,000 F',
+  'gal.a20.i2': 'Viewing: paid',
+  'gal.a20.i3': 'Fees: 25% (short stay)',
+  'gal.a20.i4': 'Fees: 1 month (long stay)',
+
+    // --- Apartment 21: Agoè Logopé ---
+  'gal.a21.title': 'Furnished upper-floor 1 bedroom + living room in Agoè Logopé',
+  'gal.a21.loc': 'Agoè Logopé, not far from the BOAD-LOI pharmacy',
+  'gal.a21.rent': '/ month',
+
+    // --- Apartment 22: Agoè Logopé, ground floor ---
+  'gal.a22.title': 'Furnished ground-floor 2 bedrooms + living room in Agoè Logopé',
+  'gal.a22.loc': 'Agoè Logopé, not far from the BOAD-LOI pharmacy',
+  'gal.a22.rent': '/ month',
 
   // --- Videos ---
   'gal.v.title': 'Our videos',
@@ -557,7 +627,7 @@ Object.assign(I18N.en, {
   'gal.t1.i2': 'Document: land title available',
   'gal.t1.i3': 'Viewing: by appointment',
 
-    // --- Land 3: Djagblé, Lowé district ---
+  // --- Land 3: Djagblé, Lowé district ---
   'gal.t3.tag': 'Land',
   'gal.t3.name': 'Djagblé, Lowé district',
   'gal.t3.title': 'Land for sale in Djagblé, Lowé district',
@@ -569,7 +639,7 @@ Object.assign(I18N.en, {
   'gal.t3.i2': 'Size: ½ plot',
   'gal.t3.i3': 'Viewing: by appointment',
 
-  
+
   // --- Furnishing ---
   'gal.f.title': 'Our furnishing',
   'gal.f.intro': 'Furniture and decoration for a home ready to live in.',
