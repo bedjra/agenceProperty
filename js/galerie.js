@@ -275,6 +275,18 @@ Object.assign(I18N.fr, {
   'gal.t1.i2': 'Document: land title available',
   'gal.t1.i3': 'Viewing: by appointment',
 
+    // --- Terrain 3 : Djagblé, quartier Lowé ---
+  'gal.t3.tag': 'Terrain',
+  'gal.t3.name': 'Terrain à Djagblé, quartier Lowé',
+  'gal.t3.title': 'Terrain à vendre à Djagblé, quartier Lowé',
+  'gal.t3.loc': 'Djagblé, quartier Lowé',
+  'gal.t3.desc': 'Terrain à vendre à Djagblé, dans le quartier Lowé.',
+  'gal.t3.neg': 'à débattre',
+  'gal.t3.i0': 'Localité : Djagblé',
+  'gal.t3.i1': 'Quartier : Lowé',
+  'gal.t3.i2': 'Superficie : ½ lot',
+  'gal.t3.i3': 'Visite : sur rendez-vous',
+
   // --- Ameublements ---
   'gal.f.title': 'Nos ameublements',
   'gal.f.intro': 'Meubles et décoration pour un logement prêt à vivre.',
@@ -545,6 +557,19 @@ Object.assign(I18N.en, {
   'gal.t1.i2': 'Document: land title available',
   'gal.t1.i3': 'Viewing: by appointment',
 
+    // --- Land 3: Djagblé, Lowé district ---
+  'gal.t3.tag': 'Land',
+  'gal.t3.name': 'Djagblé, Lowé district',
+  'gal.t3.title': 'Land for sale in Djagblé, Lowé district',
+  'gal.t3.loc': 'Djagblé, Lowé district',
+  'gal.t3.desc': 'Land for sale in Djagblé, in the Lowé district.',
+  'gal.t3.neg': 'negotiable',
+  'gal.t3.i0': 'Locality: Djagblé',
+  'gal.t3.i1': 'District: Lowé',
+  'gal.t3.i2': 'Size: ½ plot',
+  'gal.t3.i3': 'Viewing: by appointment',
+
+  
   // --- Furnishing ---
   'gal.f.title': 'Our furnishing',
   'gal.f.intro': 'Furniture and decoration for a home ready to live in.',
