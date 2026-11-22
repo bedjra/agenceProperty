@@ -613,6 +613,19 @@ Object.assign(I18N.en, {
   'gal.v16.t5': 'Deposit: 50,000 F',
   'gal.v16.ideal': 'Ideal for a single person or a couple, on a short or long stay in Lomé.',
 
+    'gal.v17.title': 'Furnished apartment for rent, 2 bedrooms + living room',
+  'gal.v17.f1': '2 bedrooms and a living room, fully furnished',
+  'gal.v17.f2': '2 showers',
+  'gal.v17.f3': 'Equipped kitchen',
+  'gal.v17.f4': 'Balcony',
+  'gal.v17.f5': 'Free Wi-Fi and Netflix',
+  'gal.v17.f6': 'All necessary amenities',
+  'gal.v17.loc': 'Attiégou, behind CETEF',
+  'gal.v17.t1': 'Deposit: 50,000 F, refundable',
+  'gal.v17.t2': 'Commission: 25%',
+
+
+
   // --- Land ---
   'gal.t.title': 'Land for sale',
   'gal.t.intro': 'Plots available for your building project.',
