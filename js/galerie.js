@@ -163,15 +163,16 @@ Object.assign(I18N.fr, {
 
     // --- Appartement 22 : Agoè Logopé, rez-de-chaussée ---
   'gal.a22.title': '2 chambres salon meublé au rez-de-chaussée à Agoè Logopé',
+  'gal.a22.loc': 'Agoè Logopé, non loin de la pharmacie BOAD-LOI',
+  'gal.a22.rent': '/ mois',
 
-    // --- Apartment 23: Avédji Coconut ---
-  'gal.a23.title': 'High-standard apartment, 2 bedrooms + living room with large terrace in Avédji',
-  'gal.a23.loc': 'Avédji Coconut, Roitelet School, 300 m from the paved road',
-  'gal.a23.desc': 'Very spacious living room, indoor shower, well-equipped kitchen, washing machine and a large terrace to relax on.',
-  'gal.a23.deposit': 'Deposit: 100,000 F, refundable',
-  'gal.a23.visit': 'Viewing: 5,000 F',
-  'gal.a23.fees': 'Agency fees: 25% (short stay), 1 month (long stay)',
-
+  // --- Appartement 23 : Avédji Coconut ---
+  'gal.a23.title': 'Appartement haut standing, 2 chambres salon avec grande terrasse à Avédji',
+  'gal.a23.loc': 'Avédji Coconut, École Roitelet, à 300 m du goudron',
+  'gal.a23.desc': 'Salon très spacieux, douche interne, cuisine bien équipée, machine à laver et grande terrasse pour vos moments de détente.',
+  'gal.a23.deposit': 'Caution : 100 000 F remboursable',
+  'gal.a23.visit': 'Visite : 5 000 F',
+  'gal.a23.fees': "Frais d'agence : 25 % (court séjour), 1 mois (long séjour)",
 
   // --- Vidéos ---
   'gal.v.title': 'Nos vidéos',
@@ -304,28 +305,30 @@ Object.assign(I18N.fr, {
   'gal.v16.t5': 'Caution : 50 000 F',
   'gal.v16.ideal': 'Idéal pour une personne seule ou un couple, en séjour court ou long à Lomé.',
 
+  'gal.v17.title': 'Appartement meublé à louer, 2 chambres salon',
+  'gal.v17.f1': '2 chambres et un salon, entièrement meublé',
+  'gal.v17.f2': '2 douches',
+  'gal.v17.f3': 'Cuisine équipée',
+  'gal.v17.f4': 'Balcon',
+  'gal.v17.f5': 'Wi-Fi et Netflix gratuits',
+  'gal.v17.f6': 'Toutes les commodités nécessaires',
+  'gal.v17.loc': 'Attiégou, derrière le CETEF',
+  'gal.v17.t1': 'Caution : 50 000 F, remboursable',
+  'gal.v17.t2': 'Commission : 25 %',
 
-    // --- Appartement 23 : Avédji Coconut ---
-  'gal.a23.title': 'Appartement haut standing, 2 chambres salon avec grande terrasse à Avédji',
-  'gal.a23.loc': 'Avédji Coconut, École Roitelet, à 300 m du goudron',
-  'gal.a23.desc': 'Salon très spacieux, douche interne, cuisine bien équipée, machine à laver et grande terrasse pour vos moments de détente.',
-  'gal.a23.deposit': 'Caution : 100 000 F remboursable',
-  'gal.a23.visit': 'Visite : 5 000 F',
-  'gal.a23.fees': "Frais d'agence : 25 % (court séjour), 1 mois (long séjour)",
-  
-  // --- Land ---
-  'gal.t.title': 'Land for sale',
-  'gal.t.intro': 'Plots available for your building project.',
-  'gal.t1.tag': 'Land',
-  'gal.t1.name': 'Vodougbé (Aného), plot no. 730',
-  'gal.t1.title': 'Land for sale in Vodougbé, via Aného (plot no. 730)',
-  'gal.t1.loc': 'Vodougbé, via Aného, just past the Aného toll gate, a few steps from the Lomé–Aného road',
-  'gal.t1.desc': 'Quiet, accessible and strategic area.',
-  'gal.t1.neg': 'negotiable',
-  'gal.t1.i0': 'Plot no. 730',
-  'gal.t1.i1': 'Size: former 1 plot',
-  'gal.t1.i2': 'Document: land title available',
-  'gal.t1.i3': 'Viewing: by appointment',
+  // --- Terrains ---
+  'gal.t.title': 'Terrains à vendre',
+  'gal.t.intro': 'Des parcelles disponibles pour votre projet de construction.',
+  'gal.t1.tag': 'Terrain',
+  'gal.t1.name': 'Vodougbé (Aného), parcelle n° 730',
+  'gal.t1.title': 'Terrain à vendre à Vodougbé, via Aného (parcelle n° 730)',
+  'gal.t1.loc': "Vodougbé, via Aného, juste après le péage d'Aného, à quelques pas de la route Lomé–Aného",
+  'gal.t1.desc': 'Zone calme, accessible et stratégique.',
+  'gal.t1.neg': 'à débattre',
+  'gal.t1.i0': 'Parcelle n° 730',
+  'gal.t1.i1': 'Superficie : ancien 1 lot',
+  'gal.t1.i2': 'Document : titre foncier disponible',
+  'gal.t1.i3': 'Visite : sur rendez-vous',
 
   // --- Terrain 3 : Djagblé, quartier Lowé ---
   'gal.t3.tag': 'Terrain',
@@ -489,15 +492,23 @@ Object.assign(I18N.en, {
   'gal.a20.i3': 'Fees: 25% (short stay)',
   'gal.a20.i4': 'Fees: 1 month (long stay)',
 
-    // --- Apartment 21: Agoè Logopé ---
+  // --- Apartment 21: Agoè Logopé ---
   'gal.a21.title': 'Furnished upper-floor 1 bedroom + living room in Agoè Logopé',
   'gal.a21.loc': 'Agoè Logopé, not far from the BOAD-LOI pharmacy',
   'gal.a21.rent': '/ month',
 
-    // --- Apartment 22: Agoè Logopé, ground floor ---
+  // --- Apartment 22: Agoè Logopé, ground floor ---
   'gal.a22.title': 'Furnished ground-floor 2 bedrooms + living room in Agoè Logopé',
   'gal.a22.loc': 'Agoè Logopé, not far from the BOAD-LOI pharmacy',
   'gal.a22.rent': '/ month',
+
+  // --- Apartment 23: Avédji Coconut ---
+  'gal.a23.title': 'High-standard apartment, 2 bedrooms + living room with large terrace in Avédji',
+  'gal.a23.loc': 'Avédji Coconut, Roitelet School, 300 m from the paved road',
+  'gal.a23.desc': 'Very spacious living room, indoor shower, well-equipped kitchen, washing machine and a large terrace to relax on.',
+  'gal.a23.deposit': 'Deposit: 100,000 F, refundable',
+  'gal.a23.visit': 'Viewing: 5,000 F',
+  'gal.a23.fees': 'Agency fees: 25% (short stay), 1 month (long stay)',
 
   // --- Videos ---
   'gal.v.title': 'Our videos',
@@ -629,7 +640,7 @@ Object.assign(I18N.en, {
   'gal.v16.t5': 'Deposit: 50,000 F',
   'gal.v16.ideal': 'Ideal for a single person or a couple, on a short or long stay in Lomé.',
 
-    'gal.v17.title': 'Furnished apartment for rent, 2 bedrooms + living room',
+  'gal.v17.title': 'Furnished apartment for rent, 2 bedrooms + living room',
   'gal.v17.f1': '2 bedrooms and a living room, fully furnished',
   'gal.v17.f2': '2 showers',
   'gal.v17.f3': 'Equipped kitchen',
@@ -639,8 +650,6 @@ Object.assign(I18N.en, {
   'gal.v17.loc': 'Attiégou, behind CETEF',
   'gal.v17.t1': 'Deposit: 50,000 F, refundable',
   'gal.v17.t2': 'Commission: 25%',
-
-
 
   // --- Land ---
   'gal.t.title': 'Land for sale',
@@ -667,7 +676,6 @@ Object.assign(I18N.en, {
   'gal.t3.i1': 'District: Lowé',
   'gal.t3.i2': 'Size: ½ plot',
   'gal.t3.i3': 'Viewing: by appointment',
-
 
   // --- Furnishing ---
   'gal.f.title': 'Our furnishing',
