@@ -164,6 +164,14 @@ Object.assign(I18N.fr, {
     // --- Appartement 22 : Agoè Logopé, rez-de-chaussée ---
   'gal.a22.title': '2 chambres salon meublé au rez-de-chaussée à Agoè Logopé',
 
+    // --- Apartment 23: Avédji Coconut ---
+  'gal.a23.title': 'High-standard apartment, 2 bedrooms + living room with large terrace in Avédji',
+  'gal.a23.loc': 'Avédji Coconut, Roitelet School, 300 m from the paved road',
+  'gal.a23.desc': 'Very spacious living room, indoor shower, well-equipped kitchen, washing machine and a large terrace to relax on.',
+  'gal.a23.deposit': 'Deposit: 100,000 F, refundable',
+  'gal.a23.visit': 'Viewing: 5,000 F',
+  'gal.a23.fees': 'Agency fees: 25% (short stay), 1 month (long stay)',
+
 
   // --- Vidéos ---
   'gal.v.title': 'Nos vidéos',
@@ -296,6 +304,14 @@ Object.assign(I18N.fr, {
   'gal.v16.t5': 'Caution : 50 000 F',
   'gal.v16.ideal': 'Idéal pour une personne seule ou un couple, en séjour court ou long à Lomé.',
 
+
+    // --- Appartement 23 : Avédji Coconut ---
+  'gal.a23.title': 'Appartement haut standing, 2 chambres salon avec grande terrasse à Avédji',
+  'gal.a23.loc': 'Avédji Coconut, École Roitelet, à 300 m du goudron',
+  'gal.a23.desc': 'Salon très spacieux, douche interne, cuisine bien équipée, machine à laver et grande terrasse pour vos moments de détente.',
+  'gal.a23.deposit': 'Caution : 100 000 F remboursable',
+  'gal.a23.visit': 'Visite : 5 000 F',
+  'gal.a23.fees': "Frais d'agence : 25 % (court séjour), 1 mois (long séjour)",
   
   // --- Land ---
   'gal.t.title': 'Land for sale',
